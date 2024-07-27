@@ -41,7 +41,7 @@ frontend lassy-frontend
         default_backend lassy-backend
 
 frontend lassy-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/lassy.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.lassy.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend lassy-backend
 
