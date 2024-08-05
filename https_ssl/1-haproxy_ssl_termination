@@ -47,5 +47,5 @@ frontend lassy-frontend-https
 
 backend lassy-backend
         balance roundrobin
-        server 6166-web-01 98.80.77.170:80 check
-        server 6166-web-02 54.175.227.55:80 check
+        server 6166-web-01 34.229.90.61:80 check
+        server 6166-web-02 75.101.251.103:80 check
